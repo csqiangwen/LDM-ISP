@@ -29,7 +29,7 @@ If you find this repository useful for your research, please cite the following 
   journal={arXiv preprint arXiv:2312.01027},
   year={2023}
 }
-Explain
+
 ```
 <p align='center'>
 <img src='Logo/HKUST_VIL.png' width=500>
