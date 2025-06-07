@@ -9,7 +9,7 @@ conda env create -f environment.yml -n ldm_isp
 ```
 
 ## Evaluation
-We released our test results with their corresponding GTs. You may directly compare your results with them during your experiments.
+We released our test results with their corresponding GTs. You may directly compare them with your results during your experiments.
 - Download the [our test results (SID-Sony, ELD-Sony, LRD)](https://hkustconnect-my.sharepoint.com/:f:/g/personal/qwenab_connect_ust_hk/ErBo5KAWKYRCr7b8yV7I_RsB5qFQJMuX-9O3ee0nlSwlxA?e=48xFgK);
 
 ## Testing (your own data)
