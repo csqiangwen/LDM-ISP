@@ -21,6 +21,9 @@ We released our test results with their corresponding GTs. You may directly comp
 $ bash test_custom.sh
 ```
 
+## Acknowledgements
+- This code is based on previous excellent work [StableSR](https://github.com/IceClear/StableSR).
+
 ## Citation
 If you find this repository useful for your research, please cite the following work.
 ```
