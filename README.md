@@ -20,7 +20,7 @@ conda env create -f environment.yml -n ldm_isp
 bash train.sh
 ```
 - After training the UNet taming modules, you can utilize the trained model to generate latent representations of RAW files in your dataset.
-- Then, you are able to train the Decoder taming modules using these latent representations and their corresponding GTs.
+- Then, you are able to train the Decoder taming modules using these latent representations and their corresponding sRGB GTs (long-exposure sRGB images).
 
 ## Evaluation
 We released our test results with their corresponding GTs. You may directly compare them with your results during your experiments.
