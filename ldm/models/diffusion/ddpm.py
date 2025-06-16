@@ -1639,29 +1639,6 @@ class LatentDiffusionLLIE(DDPM):
                 else:
                     param.requires_grad = True
 
-        
-        # print('>>>>>>>>>>>>>>>>model>>>>>>>>>>>>>>>>>>>>')
-        # param_list = []
-        # for name, params in self.model.named_parameters():
-        #     if params.requires_grad:
-        #         param_list.append(name)
-        # print(param_list)
-        # param_list = []
-        # print('>>>>>>>>>>>>>>>>>cond_stage_model>>>>>>>>>>>>>>>>>>>')
-        # for name, params in self.cond_stage_model.named_parameters():
-        #     if params.requires_grad:
-        #         param_list.append(name)
-        # print(param_list)
-        # param_list = []
-        # print('>>>>>>>>>>>>>>>>structcond_stage_model>>>>>>>>>>>>>>>>>>>>')
-        # for name, params in self.structcond_stage_model.named_parameters():
-        #     if params.requires_grad:
-        #         param_list.append(name)
-        # print(param_list)
-
-        # print('--------------------------------------')
-        # print(sum(p.numel() for p in self.structcond_stage_model.parameters()))
-        # exit()
 
         # P2 weighting: https://github.com/jychoi118/P2-weighting
         if p2_gamma is not None:
