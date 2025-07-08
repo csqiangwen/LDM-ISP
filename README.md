@@ -6,6 +6,8 @@ This is the official PyTorch implementation of ''LDM-ISP: Enhancing Neural ISP f
 ## Preparation
 ```bash
 conda env create -f environment.yml -n ldm_isp
+pip install git+https://github.com/CompVis/taming-transformers.git@master#egg=taming-transformers
+pip install git+https://github.com/openai/CLIP.git@main#egg=clip
 ```
 
 ## Training
